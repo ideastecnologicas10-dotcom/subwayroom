@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Room - Sitio Oficial</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121214;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 90%;
+            background-color: #1a1a1e;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            border: 1px solid #29292e;
+        }
+
+        h1 {
+            color: #00ff87;
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .domain {
+            color: #60efff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            display: block;
+            text-transform: lowercase;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background: linear-gradient(135deg, #00ff87 0%, #60efff 100%);
+            color: #000000;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0, 255, 135, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 35px;
+        }
+
+        .btn-download:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 255, 135, 0.5);
+        }
+
+        .requirements {
+            background-color: #121214;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            border-left: 4px solid #60efff;
+        }
+
+        .requirements h2 {
+            font-size: 1.1rem;
+            color: #60efff;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .requirements ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .requirements li {
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dashed #29292e;
+            padding-bottom: 5px;
+        }
+
+        .requirements li span.label {
+            color: #a0a0a5;
+        }
+
+        .requirements li span.value {
+            font-weight: bold;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Subway Room</h1>
+        <!-- Nombre modificado a tu petición -->
+        <span class="domain">subwayroom.com</span>
+
+        <a href="subway-room.apk" download class="btn-download">INSTALAR APK</a>
+
+        <div class="requirements">
+            <h2>Requisitos Mínimos</h2>
+            <ul>
+                <li>
+                    <span class="label">Memoria RAM:</span>
+                    <span class="value">512 MB</span>
+                </li>
+                <li>
+                    <span class="label">Procesador (CPU):</span>
+                    <span class="value">Modelo 2012 o superior</span>
+                </li>
+                <li>
+                    <span class="label">Sistema Operativo:</span>
+                    <span class="value">Android 4.0 o superior</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
